@@ -1,4 +1,5 @@
 Create blog
+
     Method: POST
     Route: /blogs
 
@@ -7,6 +8,7 @@ Create blog
         "content": "conteudo"}
 
 List blogs  
+
     Method:GET
     Route: /blogs
 
@@ -18,11 +20,13 @@ List blogs
         }}
 
 List x blog
+
     Method: GET
     Route: /blogs/{blog_id}
     Param: `blog_id`
 
 Att blog
+
     Method: PATCH
     Route: /blogs/{blog_id}
     Params:`blog_id`
@@ -32,6 +36,7 @@ Att blog
         }
     
 Delete blog
+
     Method: DELETE
     Route: /blogs/{blog_id}
     Params: `blog_id`
