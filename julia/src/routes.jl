@@ -4,7 +4,6 @@ include("Database.jl")
 using .Database
 using JSON3
 
-# Define um objeto de exemplo (ajuste conforme seu caso)
 struct BlogPost
     id::Int
     title::String
